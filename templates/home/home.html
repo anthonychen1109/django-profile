@@ -1,0 +1,49 @@
+{% extends 'home/base.html' %}
+{% load staticfiles %}
+{% block content %}
+  <div class="row">
+    <div class="col-6">
+      <h3>History and Skills</h3>
+      <p>Before getting into the field of Software Engineering, I studied Economics in Baruch College. I have a strong interest in the effect of supply and demand on business.</p>
+      <p>While studying Computer Science in Queens College, I took a job as an IT/MIS Administrator to learn the hardware side of computing. I felt the need to also understand the hardware and building blocks of a computer if I'm going to work on the computer.</p>
+      <p>Upon graduation, I liked the aesthetics of the Python language (readability and simplicity) and decided to build this site using the Django framework to get a better understanding.</p>
+      <p>When I'm not coding, I like to fish, workout and learn culinary art from my father.</p>
+      <h3>Skills:</h3>
+      <ul>
+        <li class="skill-list">Java</li>
+        <li class="skill-list">C++</li>
+        <li class="skill-list">React</li>
+        <li class="skill-list">JavaScript</li>
+        <li class="skill-list">Redux</li>
+        <li class="skill-list">HTML</li>
+        <li class="skill-list">CSS</li>
+        <li class="skill-list">Sass</li>
+        <li class="skill-list">Python</li>
+        <li class="skill-list">Django</li>
+        <li class="skill-list">Git</li>
+        <li class="skill-list">MySQL</li>
+      </ul>
+    </div>
+    <div class="row col-6">
+      <div class="col-6">
+        <img class="skill-logo" src="{% static "/images/java.png" alt="Java Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/c++.png" alt="C++ Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/python.png" alt="Python Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/django.png" alt="Django Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/mysql.png" alt="MySQL Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/git.png" alt="Git Logo"%}" />
+      </div>
+      <div class="col-6">
+        <img class="skill-logo" src="{% static "/images/React.png" alt="React Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/redux.png" alt="Redux Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/js.jpg" alt="JS Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/css.png" alt="CSS Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/sass.png" alt="Sass Logo"%}" />
+        <img class="skill-logo" src="{% static "/images/html.png" alt="HTML Logo"%}" />
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="text-center">Projects</h1>
+    </div>
+  </div>
+{% endblock %}
